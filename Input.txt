@@ -18,17 +18,5 @@ pipeline {
                 input(message: 'Hello world!', ok: 'submit')
             }
         }
-         stage('Hello3') {
-            steps {
-                echo 'Hello World3'
-            }
-        }
-        stage('Hello4') {
-            steps {
-                echo 'Hello World4'
-               
-            }
-        }
-
-    }
+      }
 }
