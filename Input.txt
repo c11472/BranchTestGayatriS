@@ -16,6 +16,7 @@ pipeline {
             steps {
                 echo 'Hello World2'
                 input(message: 'Hello world!', ok: 'submit')
+                echo 'job will continue'
             }
         }
       }
